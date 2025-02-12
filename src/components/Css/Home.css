@@ -1,0 +1,56 @@
+.home{
+    background-color: whitesmoke;
+    font-family: Monaco;
+}
+.sidebar{
+  
+   margin:  0rem;
+   text-align: left;
+   width: 300px;
+  
+  
+}
+.feed{
+
+}
+
+.nav-cards{
+    transition: transform 0.2s ease-out;
+}
+.nav-cards:hover{
+    transform: scale(1.05);
+}
+
+.nav-cards{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+   
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .menu-bar-btn{
+        margin-right: 500px;
+
+    }
+    
+    
+    
+}
+@media screen and (max-width:600px) {
+    .nav-cards h5{
+        font-size: small !important;
+       }
+    
+}
+@media screen and (max-width:800px) {
+    .nav-cards h5{
+        font-size: medium;
+       }
+    
+}

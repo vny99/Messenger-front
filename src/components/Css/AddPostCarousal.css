@@ -1,0 +1,45 @@
+.uploaded-pad{
+    display: flex;
+    justify-content: center;
+  
+    
+  }
+  .uploaded-image{
+     height: 300px;
+     
+  }
+  .uploaded-video{
+     height: 300px;
+  }
+  .tag-remover-carousal{
+   background: none ;
+  font-size: 23px;
+ position: absolute;
+  right: 2.5rem  ;
+  border: none;
+  z-index: 2 !important;
+
+}
+
+  @media screen and (max-width:600px) {
+    .uploaded-image, .uploaded-video{
+       height: 120px !important;
+       
+    }
+    
+  }
+  @media screen and (max-width:700px) {
+    .uploaded-image , .uploaded-video{
+       height: 250px;
+       
+    }
+    
+  }
+  @media screen and (max-width:850px) {
+    .uploaded-image , .uploaded-video{
+       height: 170px;
+       
+    }
+    
+  }
+ 
